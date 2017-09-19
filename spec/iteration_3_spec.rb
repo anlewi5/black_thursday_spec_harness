@@ -298,7 +298,7 @@ RSpec.describe "Iteration 3" do
       expect(expected.length).to eq 12
       expect(expected.first.class).to eq Customer
     end
-  end
+    end
 
   context "Business Intelligence" do
     it "invoice#is_paid_in_full? returns true if the invoice is paid in full" do
